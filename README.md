@@ -1,5 +1,7 @@
 **Collaborative Comic Strip Web Application**
+
 *UBC CPSC 310 Software Engineering Project*
+
 Group Name: dodos
 
 **Technologies**
