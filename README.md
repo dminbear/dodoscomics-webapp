@@ -1,10 +1,10 @@
-**Collaborative Comic Strip Web Application**
+# **Collaborative Comic Strip Web Application**
 
-*UBC CPSC 310 Software Engineering Project*
+## *UBC CPSC 310 Software Engineering Project*
 
-Group Name: dodos
+### dodos
 
-**Technologies**
+### Technologies
 * Node.js
 * TypeScript
 * MongoDB

@@ -173,16 +173,16 @@
   * **EPIC**
     * Editing
   * **Role-Goal-Benefit**
-    * As a contributor, I want to be able to edit my comic by rearranging the panels and deleting them, in case I made errors or to make it flow properly.
+    * As a contributor, I want to be able to edit comics by rearranging the panels and deleting them, in case there are errors or to make it flow properly.
   * **Notes**
     * Panels can be selected, and dragged and dropped to change their order.
     * Deletion button will be on the side, and can be clicked to delete selected panel.
   * **Definitions of Done (Test)**
-    * An edit button should be on the side of the comic that a contributor created.
-    * Only the contributor can edit their own comics.
+    * An edit button should be on the side of the comic for contributors.
+    * Contributors can edit all comics.
     * Panels can be rearranged and deleted.
   * **Tasks**
-    * Create an edit function, that is activated by clicking.
+    * Create an edit function that is activated by clicking.
     * Create a drag and drop interface.
     * Allow deletion of comic images  from the webpage and server.
   * **Effort Estimate**
