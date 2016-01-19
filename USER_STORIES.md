@@ -2,46 +2,26 @@
 
 1.
 
-  *EPIC
-  
+  *EPIC  
     *Access
-    
   *Role-Goal-Benefit
-  
     *As a new viewer or new contributor I want to be able to create an account so that I can use this web-application.
-    
-  *Notes
-  
+  *Notes 
     *In order to create an account, a new viewer or new contributor must provide their email and create a username and a password.
-    
   *Definitions of Done (Test)
-  
-    *A new viewer or new contributor should be able to successfully create an account if they provide a valid email, a unique username and a password:
-    
-    *Fill in information: email, username, password.
-    
-    *Choose between "Viewier" or "Contributor".
-    
-    *Upload an avatar.
-    
-    *Click "Create Account".
-    
-    *A user knows that they have successfully created an account if after clicking “Create Account”, they are led to their profile page which displays the personal information that they have provided.
-    
-    *A new viewer or new contributor fails to create an account if they:
-    
-      *provide an invalid email.
-      
-      *fill in a username that is already in use.
-      
-  *Tasks
-  
-    *Verify the information with the database and log the user in.
-    
-    *Create the form that allows the user to login.
-    
-  *Estimate
-  
+    *A new viewer or new contributor should be able to successfully create an account if they provide a valid email, a unique username and a password:    
+    *Fill in information: email, username, password.    
+    *Choose between "Viewier" or "Contributor".    
+    *Upload an avatar.    
+    *Click "Create Account".    
+    *A user knows that they have successfully created an account if after clicking “Create Account”, they are led to their profile page which displays the personal information that they have provided.    
+    *A new viewer or new contributor fails to create an account if they:    
+      *provide an invalid email.      
+      *fill in a username that is already in use.      
+  *Tasks 
+    *Verify the information with the database and log the user in.    
+    *Create the form that allows the user to login.    
+  *Estimate  
     *6 hours
 
 2.
