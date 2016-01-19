@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+	"module": "commonjs",
+	"moduleResolution": "classic",
+	"removeComments": true,
+	"preserveConstEnums": true,
+	"sourceMap": true
+    },
+    "files": [
+	"app.ts",
+	"routes/index.ts"
+    ]
+}
