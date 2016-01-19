@@ -22,6 +22,7 @@
     * Create the form that allows the user to login.    
   * Estimate  
     * 6 hours
+    
 2.
   * EPIC
     * Access
@@ -37,6 +38,7 @@
     * Create a login-page with boxes for “username” and “password” and an “enter” button that the viewer or collaborator will fill in.
   * Estimate
     * 4 hours
+    
 3.
   * EPIC
     * Editing
@@ -55,6 +57,7 @@
     * Update database with the changed password associated with the viewer or collaborator.
   * Estimate
     * 4 hours
+    
 4.
   * EPIC
     * Storage
@@ -73,6 +76,7 @@
     * Display the image on the screen according to whether it’s on their profile, or in the comment section (smaller for comment section).
   * Estimate
     * 5 hours
+    
 5.
   * EPIC
     * Storage
@@ -89,6 +93,7 @@
     * If the selected comic strip is not in the favorites, show 'add to favorite button'.
   * Estimate
     * 3 hours
+    
 6.
   * EPIC
     * Access
@@ -102,7 +107,8 @@
     * Set up clickable usernames in the comments section so that they lead to the public profile of the user when clicked.
     * Set up the public profile of a user that contains the username as a header, their avatar picture and the favourites list of that user; if user has no favourites just have the username header present.
   * Estimate
-    * 3 hours  
+    * 3 hours
+    
 7.
   * EPIC
     * Editing    
@@ -134,6 +140,7 @@
     * Create functions to find comics with matching keywords.
   * Estimate
     * 4 hours
+    
 9.
   * EPIC
     * Editing
@@ -151,6 +158,7 @@
     * The entry will take in two different inputs, one for title and one for comments, which are entered in separate boxes display it properly on the page.
   * Estimate
     * 4 hours
+    
 10.
   * EPIC
     * Editing
@@ -169,6 +177,7 @@
     * Allow deletion of comic images  from the webpage and server.
   * Estimate
     * 6 hours
+    
 11.
   * EPIC
     * Editing
@@ -183,6 +192,7 @@
     * When clicked, the user can change what’s in their author comments box, or the title, as well as delete them.
   * Estimate
     * 4 hours
+    
 12.
   * EPIC
     * Viewing & Editing
@@ -199,6 +209,7 @@
     * Display the image on the webpage.
   * Estimate
     * 5 hours
+    
 13.
   * EPIC
     * Access
@@ -219,6 +230,7 @@
     * Implement functionality that lets user know if the email they entered is associated with an account and that an email has been sent to their account.
   * Estimate
     * 7 hours
+    
 14.
   * EPIC
     * Access
@@ -235,6 +247,7 @@
     * Ensure that the user is redirected to the homepage after being succesfully logged out.
   * Estimate
     * 5 hours
+    
 15.
   * EPIC
     * Viewing
