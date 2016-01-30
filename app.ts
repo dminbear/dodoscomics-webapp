@@ -7,11 +7,40 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var mongoose = require('mongoose');
+var passport = require('passport');
+var config = require('./config');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
 var app = express();
+
+// Connect to MongoDB via mongoose
+var db = mongoose;
+
+db.connect("mongodb://" + config.database.username + ":" + config.database.password + "@" + config.database.url + "/" + config.database.name, function(err, db) {
+    if (!err) {
+	console.log("Connected");
+    } else {
+	console.log("Err");
+    }
+});
+
+var Schema = db.Schema;
+
+var userSchema = new Schema({
+    username: String,
+    password: String,
+    email: String,
+    favorites: Array,
+    inbox: Array
+});
+
+var User = db.model("User", userSchema);
+
+var newUser = new User();
+newUser.save();
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
